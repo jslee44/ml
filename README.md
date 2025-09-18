@@ -1,2 +1,1 @@
-Department of Smart IT, Hanyang Women's University
-Machine Learning
+Machine Learning, Department of Smart IT, Hanyang Women's University
