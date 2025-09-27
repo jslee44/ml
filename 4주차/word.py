@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 # 1.위키피디아에서 텍스트 가져오기
 wikipedia.set_lang("ko") # 한글 위키피디아 설정
-text = wikipedia.page("한국열린사이버대학교").content # 예: 한양여자대학교 문서
+text = wikipedia.page("한양여자대학교").content # 예: 한양여자대학교 문서
 
 # 2.pandas로 텍스트 데이터프레임 생성(분석 및 전처리를 위해)
 df = pd.DataFrame({'text':[text]})
@@ -25,5 +25,5 @@ wordcloud = WordCloud(
 plt.figure(figsize=(12,6)) 
 plt.imshow(wordcloud, interpolation='bilinear')
 plt.axis('off')
-plt.title('한국열린사이버대학교 위키피디아 워드클라우드')
+plt.title('한양여자대학교 위키피디아 워드클라우드')
 plt.show()
